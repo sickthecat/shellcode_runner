@@ -6,7 +6,7 @@ also included is a source code to encrypt your payloads ... two seperate project
 
 
 the encryption is mainly used for if you're hosting in restrictive envs which may delete your payloads due to automated scans
-this is detected by Windows defender... oh well I tried.
+this is detected by Windows defender when payloads are decrypted and moved into memory to be executed.. but at least nothing touches the disk... oh well I tried.
 
 msfvenom payloads are just.. shit... enjoy...
 perhaps if you write your own shellcode this might work. ;3
